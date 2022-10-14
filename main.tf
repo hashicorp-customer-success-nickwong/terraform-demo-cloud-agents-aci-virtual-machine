@@ -52,7 +52,7 @@ resource "azurerm_linux_virtual_machine" "example" {
   resource_group_name = azurerm_resource_group.rg.name
   location            = var.location
   size                = "Standard_F2"
-  admin_username      = "admin"
+  admin_username      = "adminuser"
   network_interface_ids = [
     azurerm_network_interface.example.id,
   ]
