@@ -1,9 +1,9 @@
 variable "prefix" {
-  type = string
+  type    = string
   default = "nwong"
 }
 
 variable "location" {
-  type = string
+  type    = string
   default = "ca-central-1"
 }
