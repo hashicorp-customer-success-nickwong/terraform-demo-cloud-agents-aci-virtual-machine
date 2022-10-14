@@ -5,5 +5,5 @@ variable "prefix" {
 
 variable "location" {
   type    = string
-  default = "ca-central-1"
+  default = "Canada Central"
 }
